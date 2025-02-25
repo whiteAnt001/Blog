@@ -1,63 +1,98 @@
-📝 Spring Boot 블로그 프로젝트
+<div align="center">
 
-📌 프로젝트 개요
+<!-- logo -->
+<img src="https://user-images.githubusercontent.com/80824750/208554611-f8277015-12e8-48d2-b2cc-d09d67f03c02.png" width="400"/>
 
-이 프로젝트는 Spring Boot 기반 블로그 애플리케이션으로, 사용자들이 게시글을 작성, 조회, 수정, 삭제(CRUD)할 수 있도록 설계되었습니다. Spring Boot와 JPA를 활용하여 데이터베이스를 관리하며, REST API를 통해 프론트엔드와 통신합니다.
+### Back-end Git Reamd.me Template ✅
 
-REST API와 OAuth2.0, JWT를 공부하기위한 프로젝트입니다.
+[<img src="https://img.shields.io/badge/-readme.md-important?style=flat&logo=google-chrome&logoColor=white" />]() [<img src="https://img.shields.io/badge/-tech blog-blue?style=flat&logo=google-chrome&logoColor=white" />]() [<img src="https://img.shields.io/badge/release-v0.0.0-yellow?style=flat&logo=google-chrome&logoColor=white" />]() 
+<br/> [<img src="https://img.shields.io/badge/프로젝트 기간-2022.12.10~2022.12.19-green?style=flat&logo=&logoColor=white" />]()
 
-✅ 주요 기능
+</div> 
 
-1. 게시글 관리
+## 📝 소개
+백엔드 깃 레파지토리의 README.md를 빠르게 작성하기 위해 만든 템플릿입니다.
 
-게시글 작성 (AddArticleRequest.java)
+다음과 같은 내용을 작성할 수 있습니다.
+- 프로젝트 소개
+- 프로젝트 화면 구성 또는 프로토 타입
+- 프로젝트 API 설계
+- 사용한 기술 스택
+- 프로젝트 아키텍쳐
+- 기술적 이슈와 해결 과정
+- 프로젝트 팀원
 
-게시글 수정 (UpdateArticleRequest.java)
+필요한 기술 스택에 대한 logo는 [skills 폴더](/skills/)에서 다운로드 받을 수 있습니다.
 
-게시글 삭제 (BlogApiController.java)
+<br />
 
-전체 게시글 목록 조회 (ArticleListViewResponse.java)
+> 화면 구성과 프로토 타입 중 원하는 것을 사용해주세요.
 
-2. 사용자 관리
+### 화면 구성
+|Screen #1|Screen #2|
+|:---:|:---:|
+|<img src="https://user-images.githubusercontent.com/80824750/208456048-acbf44a8-cd71-4132-b35a-500047adbe1c.gif" width="400"/>|<img src="https://user-images.githubusercontent.com/80824750/208456234-fb5fe434-aa65-4d7a-b955-89098d5bbe0b.gif" width="400"/>|
 
-사용자 엔티티 (User.java)
+### 프로토타입
+<img src="https://user-images.githubusercontent.com/80824750/208454673-0449e49c-57c6-4a6b-86cf-66c5b1e623dc.png">
 
-사용자 저장소 (UserRepository.java)
+<br />
 
-3. 서비스 레이어 및 로직 처리
+## 🗂️ APIs
+작성한 API는 아래에서 확인할 수 있습니다.
 
-비즈니스 로직 처리 (BlogService.java): 게시글의 생성, 조회, 수정, 삭제를 처리하며, 데이터 무결성을 보장하기 위해 JPA 트랜잭션을 사용합니다.
+👉🏻 [API 바로보기](/backend/APIs.md)
 
-사용자 인증 (UserDetailService.java): Spring Security를 활용하여 사용자 인증 및 권한 부여를 처리합니다.
 
-예외 처리 (GlobalExceptionHandler.java): 공통 예외 처리 로직을 적용하여 일관된 에러 메시지를 제공합니다.
+<br />
 
-4. 컨트롤러
+## ⚙ 기술 스택
+> skills 폴더에 있는 아이콘을 이용할 수 있습니다.
+### Back-end
+<div>
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Java.png?raw=true" width="80">
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/SpringBoot.png?raw=true" width="80">
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/SpringSecurity.png?raw=true" width="80">
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/SpringDataJPA.png?raw=true" width="80">
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Mysql.png?raw=true" width="80">
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Ajax.png?raw=true" width="80">
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Thymeleaf.png?raw=true" width="80">
+</div>
 
-BlogApiController.java: REST API 엔드포인트 제공 (게시글 CRUD)
+### Infra
+<div>
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/AWSEC2.png?raw=true" width="80">
+</div>
 
-BlogViewController.java: Thymeleaf 기반 뷰 렌더링 담당
+### Tools
+<div>
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Github.png?raw=true" width="80">
+<img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Notion.png?raw=true" width="80">
+</div>
 
-5. 테스트 코드
+<br />
 
-BlogApiControllerTest.java: 블로그 API의 단위 테스트 포함
+## 🛠️ 프로젝트 아키텍쳐
+![no-image](https://user-images.githubusercontent.com/80824750/208294567-738dd273-e137-4bbf-8307-aff64258fe03.png)
 
-UserRepositoryTest.java: JPA 저장소의 CRUD 테스트 포함
 
-🛠️ 사용된 기술 스택
 
-언어 : JAVA, HTML, JS
+<br />
 
-프레임워크: Spring Boot
+## 🤔 기술적 이슈와 해결 과정
+- Stream 써야할까?
+    - [Stream API에 대하여](https://velog.io/@yewo2nn16/Java-Stream-API)
+- Gmail STMP 이용하여 이메일 전송하기
+    - [gmail 보내기](https://velog.io/@yewo2nn16/Email-이메일-전송하기with-첨부파일)
+- AWS EC2에 배포하기
+    - [서버 배포하기-1](https://velog.io/@yewo2nn16/SpringBoot-서버-배포)
+    - [서버 배포하기-2](https://velog.io/@yewo2nn16/SpringBoot-서버-배포-인텔리제이에서-jar-파일-빌드해서-배포하기)
 
-데이터베이스: H2 Database (테스트용)
 
-ORM: Spring Data JPA
+<br />
 
-빌드 도구: Gradle
-
-템플릿 엔진: Thymeleaf
-
-보안: Spring Security + JWT 인증
-
-테스트: JUnit 5, Mockito
+## 💁‍♂️ 프로젝트 팀원
+|Backend|Frontend|
+|:---:|:---:|
+| ![](https://github.com/yewon-Noh.png?size=120) | ![](https://github.com/SeongHo-C.png?size=120) |
+|[노예원](https://github.com/yewon-Noh)|[이성호](https://github.com/SeongHo-C)|
