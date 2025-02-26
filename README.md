@@ -29,7 +29,7 @@ REST API와 OAuth2.0, JWT를 공부하기 위해 진행한 프로젝트 입니�
 ## 🗂️ APIs
 작성한 API는 아래에서 확인할 수 있습니다.
 
-👉🏻 [API 바로보기](/backend/APIs.md)
+👉🏻 [API 바로보기](src/main/java/me/parkjunseo/springbootdeveloper/controller)
 
 
 <br />
